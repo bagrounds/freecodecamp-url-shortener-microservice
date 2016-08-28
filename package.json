@@ -1,0 +1,33 @@
+{
+  "name": "freecodecamp-url-shortener-microservice",
+  "version": "0.1.0",
+  "description": "https://www.freecodecamp.com/challenges/url-shortener-microservice",
+  "main": "freecodecamp-url-shortener-microservice.js",
+  "scripts": {
+    "start": "node freecodecamp-url-shortener-microservice.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bagrounds/freecodecamp-url-shortener-microservice.git"
+  },
+  "keywords": [
+    "freecodecamp",
+    "url",
+    "shortener",
+    "microservice"
+  ],
+  "author": "bagrounds@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bagrounds/freecodecamp-url-shortener-microservice/issues"
+  },
+  "homepage": "https://github.com/bagrounds/freecodecamp-url-shortener-microservice#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "hasha": "^2.2.0",
+    "mongodb": "^2.2.8",
+    "pug": "^2.0.0-beta6",
+    "shortid": "^2.2.6",
+    "valid-url": "^1.0.9"
+  }
+}

@@ -53,12 +53,13 @@
     }
   })
 
-  app.get('/favicon.ico', function (request, response) {
-    response.end()
-  })
-
   app.get('/:endpoint', function (request, response) {
     var endpoint = request.params.endpoint
+
+    if (endpoint === 'favicon.ico') {
+      response.end()
+      return
+    }
 
     getUrl(endpoint, function (error, url) {
       if (error) {
